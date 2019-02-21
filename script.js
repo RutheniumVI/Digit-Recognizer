@@ -5,7 +5,7 @@ let wb;
 let guess;
 //"http://127.0.0.1:8887/data.json"
 function preload(){
-    wb = loadJSON("https://github.com/RutheniumVI/Digit-Recognizer/blob/master/data.json");
+    wb = loadJSON("https://rutheniumvi.github.io/digit-recognizer.json");
 }
 function sigmoid(x){
     return math.dotDivide(1,math.add(1,math.exp(math.dotMultiply(-1,x))))
