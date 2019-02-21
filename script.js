@@ -71,7 +71,7 @@ function mouseReleased(){
     updatePixels();
     img.updatePixels();
     img.resize(28,28);
-    image(img,0,0);
+    //image(img,0,0);
     //let temp = getData(img);
     
     //image(img, 100,100);
