@@ -3,7 +3,6 @@ let points = [];
 let c;
 let wb;
 let guess;
-//"http://127.0.0.1:8887/data.json"
 function preload(){
     wb = loadJSON("https://rutheniumvi.github.io/Digit-Recognizer/data.json");
 }
